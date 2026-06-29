@@ -9,7 +9,7 @@ main(){
   print("");
 
   Map<String, int> studentScores = {'Math': 85,'Moblie': 98,};
-  print('Score Moblie: ${studentScores['Math']}');
+  print('Score Math: ${studentScores['Math']}');
 
   studentScores['Algorithm'] = 85;
   print('Updated scores: $studentScores');
